@@ -24,7 +24,9 @@ to play it you simply need 4 esternally connected buttons of some sort and a VGA
 this program works by memorizing the coordinates on screen of the points where the snake changed direction, and then 
 cancelling everything from the tail to it; in the meantime every cicle a new pixel, which is the head pixel, appears in the 
 direction the snake was mooving, giving the idea of motion;
-i had to do this because for some reason by putting a decent size matrix inside of the function vga.draw(); completely filled the memory 
+i had to do this because for some reason by putting a decent size matrix inside of the function vga.draw();
+completely filled the memory.
+
 i choose a pretty slow slithering pace, but to make the game faster just reduce the delays scattered in the code.
 
 
