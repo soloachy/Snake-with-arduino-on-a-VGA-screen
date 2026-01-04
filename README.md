@@ -3,6 +3,7 @@ a simple version of the game snake, programmed on an arduino mega and displayed 
 
 # disclaimer
 for this code to work you need to have installed the library VGAX by sandro maffiodo https://github.com/smaffer/vgax
+and use at least an arduino mega in terms of memory
 
 # credits
 Sandro Maffiodo VGAX library 
